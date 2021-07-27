@@ -54,4 +54,5 @@ convert $image 	\
 	-pointsize $points -fill white 	-annotate +$tw+$meth "Main efforts:\n$efforts" \
 	"./annotated_$1"
 
+# Append current intentions to intentions log with datestamp
 echo "$(date), $intention" >> ~/intentions_log.txt
